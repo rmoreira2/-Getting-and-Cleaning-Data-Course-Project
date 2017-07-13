@@ -68,5 +68,5 @@ melted <- melt(mainData, c("Subject", "ActivityLabel"))
 meanData <- dcast(melted, Subject + ActivityLabel ~ variable, mean)
 
 ### save the tidy data ###
-write.csv(mainData, "tidyData.csv", row.names = FALSE)
-write.csv(meanData, "meanData.csv", row.names = FALSE)
+write.table(mainData, "tidyData.txt", row.names = FALSE)
+write.table(meanData, "meanData.txt", row.names = FALSE)
