@@ -1,16 +1,16 @@
 =================
-tidyData.csv
+tidyData.txt
 =================
-The "tidyData.csv" file has the tidy dataset of the accelerometer experiment.
+The "tidyData.txt" file has the tidy dataset of the accelerometer experiment.
 The first variable is the "Subject", which identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.  
 The second variable is the "ActivityLabel" which has the name of the activity that was performed as for example "STANDING" or "WALKING_UPSTAIRS".
 
 The following variables are the features as described above on the "Feature Selection" section. From the original dataset only the mean and std features were selected.
 
 =================
-meanData.csv
+meanData.txt
 =================
-The "meanData.csv" file has the same columns as the "tidyData.csv" file. It has only one row for each distinct pair of Subject / ActivityLabel, and the value of the features is the mean value for the different measures.
+The "meanData.txt" file has the same columns as the "tidyData.txt" file. It has only one row for each distinct pair of Subject / ActivityLabel, and the value of the features is the mean value for the different measures.
 
 =================
 Feature Selection 
